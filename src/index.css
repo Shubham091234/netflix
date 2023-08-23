@@ -4,6 +4,7 @@
     box-sizing: border-box;  
     background-color: #dee1e2;
     
+    
 }
 
 .mains {
@@ -23,6 +24,7 @@
     width: 100%;
     height: auto;
     text-transform: uppercase;   
+    margin-bottom: 25px;
       
    }
 
@@ -49,29 +51,30 @@ border-top-right-radius: 13px;
 }
 
 .card_info{
-padding: 15px;
+    padding: 16px 24px 24px 24px;
 background-color: #fff;
 }
 
 .card_category{
 color: grey;
 background-color: #fff;
+font-size: 15px;
  
 }
 
 .card_title{
-    padding: 5px;   
-    margin-left: -5px;
-    font-size: 20px; 
+ margin-top: 5px;
+ margin-bottom: 10px;
+    font-size: 18px; 
     background-color: #fff;
+    overflow: hidden;
 }
 
 .button{
-    padding: 4px ;
+    padding: 5px 8px ;
     border-width: 2px;
     border-color: black;
-    padding-right: 12px;
-    padding-left: 12px;
+  
     color: grey;
     background-color: #fff;
 }
@@ -79,3 +82,39 @@ background-color: #fff;
         color: black;
         cursor: pointer;
     }
+
+
+    @media screen and (max-width: 420px) {
+        .Card{
+            width: 43%;
+            margin: 3%;
+        }
+        .top {
+            font-size: 30px;
+        }
+
+        .card_title{
+            font-size: 12px;
+        }
+     }
+
+
+
+     
+    @media screen and (max-width: 750px) {
+        .Card{
+            width: 23%;
+            margin: 5%;
+            
+        }
+        .top {
+            font-size: 30px;
+        }
+
+        .card_title{
+            font-size: 9px;
+        }
+        .Cards{
+            margin-bottom: 20px;
+        }
+     }
