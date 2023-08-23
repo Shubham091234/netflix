@@ -24,7 +24,7 @@
     width: 100%;
     height: auto;
     text-transform: uppercase;   
-    margin-bottom: 25px;
+    margin-bottom: 0px;
       
    }
 
@@ -63,11 +63,10 @@ font-size: 15px;
 }
 
 .card_title{
- margin-top: 5px;
- margin-bottom: 10px;
+ 
     font-size: 18px; 
     background-color: #fff;
-    overflow: hidden;
+    
 }
 
 .button{
@@ -94,7 +93,7 @@ font-size: 15px;
         }
 
         .card_title{
-            font-size: 12px;
+            font-size: 0px;
         }
      }
 
@@ -103,18 +102,18 @@ font-size: 15px;
      
     @media screen and (max-width: 750px) {
         .Card{
-            width: 23%;
-            margin: 5%;
+            width: 46%;
+            margin: 2%;
             
         }
         .top {
-            font-size: 30px;
+            font-size: 40px;
         }
 
         .card_title{
-            font-size: 9px;
+            font-size: 18px;
+            margin-top: 10px;
+            margin-bottom: 10px;
         }
-        .Cards{
-            margin-bottom: 20px;
-        }
+       
      }
